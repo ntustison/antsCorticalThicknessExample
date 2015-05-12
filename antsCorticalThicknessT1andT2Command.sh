@@ -2,7 +2,6 @@
 DATA_DIR=${PWD}/
 TEMPLATE_DIR=${DATA_DIR}/template/
 OUT_DIR=${DATA_DIR}/OutputT1andT2/
-export ANTSPATH=/Users/ntustison/Pkg/ANTs/bin/bin/
 
 bash ${ANTSPATH}antsCorticalThickness.sh -d 2 \
   -a ${DATA_DIR}/IXI002-Guys-0828-T1_slice90.nii.gz \
