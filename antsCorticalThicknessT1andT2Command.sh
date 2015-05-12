@@ -1,6 +1,6 @@
 #!/bin/bash
 DATA_DIR=${PWD}/
-TEMPLATE_DIR=${DATA_DIR}/template/
+TEMPLATE_DIR=${DATA_DIR}/Template/
 OUT_DIR=${DATA_DIR}/OutputT1andT2/
 
 bash ${ANTSPATH}antsCorticalThickness.sh -d 2 \
